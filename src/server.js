@@ -20,7 +20,7 @@ userDb.once("open", () => {
     const app = express();
     app.use(bodyParser.json());
     app.use("/user", userRouter);
-    app.set("jsonwebtoken", config.tokensecret);
+    
     app.listen(port, (err) => {
         console.log("User Repo Lib APIs available at http://localhost:" + port);
     });
