@@ -1,0 +1,26 @@
+{
+  "name": "user-repo",
+  "version": "1.0.0",
+  "description": "User API Library",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijay-karajgikar/user-repo.git"
+  },
+  "author": "Vijay Karajgikar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijay-karajgikar/user-repo/issues"
+  },
+  "homepage": "https://github.com/vijay-karajgikar/user-repo#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.5"
+  }
+}
